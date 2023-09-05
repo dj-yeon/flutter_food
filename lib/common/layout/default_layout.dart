@@ -30,6 +30,8 @@ class DefaultLayout extends StatelessWidget {
     } else {
       return AppBar(
         backgroundColor: Colors.white,
+        // AppBar가 앞으로 튀어나온거 같은
+
         elevation: 0,
         title: Text(title!,
             style: const TextStyle(
